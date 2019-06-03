@@ -21,6 +21,10 @@
 @insert_taxi.sql;
 
 -- create comments
+@comment_private.sql;
+@comment_business.sql;
+@comment_contract.sql;
+@comment_job.sql;
 
 -- create views
 
