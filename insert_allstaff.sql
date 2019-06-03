@@ -1,5 +1,5 @@
 -- start script
-spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_allstaff_noblasko.txt
+spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/insert_allstaff_noblasko.txt
 
 SET CONSTRAINTS	ALL DEFERRED;
 

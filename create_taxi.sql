@@ -1,5 +1,5 @@
 -- start script
-spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/create_taxi_noblasko.txt;
+spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/create_taxi_noblasko.txt;
 
 DROP TABLE Taxi CASCADE CONSTRAINTS;
 CREATE TABLE Taxi (
