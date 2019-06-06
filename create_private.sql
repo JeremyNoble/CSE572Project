@@ -9,7 +9,7 @@ CREATE TABLE PrivateClient (
 	fName VARCHAR(15) NOT NULL,
 	lName VARCHAR(15) NOT NULL,
 	clientGender CHAR(7) DEFAULT 'none',
-	clientAge CHAR(3),
+	clientDOB DATE NOT NULL,
 	clientAddress VARCHAR(30) NOT NULL,
 	clientCity VARCHAR(15) DEFAULT 'South Park',
 	CONSTRAINTS Private_PK PRIMARY KEY (clientID)

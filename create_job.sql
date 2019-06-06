@@ -11,6 +11,7 @@ CREATE TABLE Job (
 	contractID CHAR(5), -- flags cannot be set 'NOT NULL'
 	jobDate DATE NOT NULL,
 	jobPrice CHAR(6), -- contracts excluded
+	jobMiles CHAR(4) NOT NULL, -- all jobs will have a mileage
 	CONSTRAINTS Job_PK PRIMARY KEY (jobID)
 );
 
