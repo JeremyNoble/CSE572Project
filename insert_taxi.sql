@@ -1,5 +1,5 @@
 -- start script
-spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_taxi_noblasko.txt
+--spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_taxi_noblasko.txt
 
 SET CONSTRAINTS	ALL DEFERRED;
 
@@ -14,4 +14,4 @@ INSERT INTO Taxi VALUES('6XLB207','Toyota','corolla','2011','black','y','L3001')
 SET CONSTRAINTS	ALL IMMEDIATE;
 
 -- stop	script
-spool off;
+--spool off;

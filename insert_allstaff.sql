@@ -1,5 +1,5 @@
 -- start script
-spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/insert_allstaff_noblasko.txt
+-- spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/insert_allstaff_noblasko.txt
 
 SET CONSTRAINTS	ALL DEFERRED;
 
@@ -19,4 +19,4 @@ INSERT INTO AllStaff VALUES('L3004','BR003','Douglas','Le','3037801499','648 McK
 SET CONSTRAINTS	ALL IMMEDIATE;
 
 -- stop	script
-spool off;
+-- spool off;

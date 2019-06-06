@@ -1,5 +1,5 @@
 -- start script
-spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/create_office_noblasko.txt;
+-- spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/create_office_noblasko.txt;
 
 DROP TABLE Office CASCADE CONSTRAINTS;
 CREATE TABLE Office (
@@ -14,4 +14,4 @@ CREATE TABLE Office (
 );
 
 -- stop script
-spool off;
+-- spool off;

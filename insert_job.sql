@@ -1,5 +1,5 @@
 --start script
-spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_job_noblasko.txt;
+-- spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_job_noblasko.txt;
 
 -- defer contraints
 SET CONSTRAINTS ALL DEFERRED;
@@ -141,4 +141,4 @@ INSERT INTO Job VALUES (
 SET CONSTRAINTS ALL IMMEDIATE;
 
 -- stop script
-spool off;
+-- spool off;
