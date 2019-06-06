@@ -1,5 +1,5 @@
 -- start script
-spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/create_allstaff_noblasko.txt;
+-- spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/create_allstaff_noblasko.txt;
 
 DROP TABLE AllStaff CASCADE CONSTRAINTS;
 CREATE TABLE AllStaff (
@@ -28,4 +28,4 @@ ALTER TABLE AllStaff
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- stop script
-spool off;
+-- spool off;

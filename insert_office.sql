@@ -1,5 +1,5 @@
 -- start script
-spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_office_noblasko.txt
+-- spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_office_noblasko.txt
 
 SET CONSTRAINTS ALL DEFERRED;
 
@@ -10,4 +10,4 @@ INSERT INTO Office VALUES ('BR003','L3001','FastCab','321 Ash St.','Lamb','42145
 SET CONSTRAINTS ALL IMMEDIATE;
 
 -- stop script
-spool off;
+-- spool off;

@@ -1,5 +1,5 @@
 -- start script
-spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/create_job_noblasko.txt;
+-- spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/create_job_noblasko.txt;
 
 -- create table
 DROP TABLE Job CASCADE CONSTRAINTS;
@@ -7,8 +7,8 @@ CREATE TABLE Job (
 	jobID CHAR(5) NOT NULL,
 	driverID CHAR(5) NOT NULL,
 	licensePlateNo VARCHAR2(9) NOT NULL,
-	clientID CHAR(5), -- flags cannot be set 'NOT NULL'
-	contractID CHAR(5), -- flags cannot be set 'NOT NULL'
+	clientID CHAR(5) DEFAULT NULL, -- private clients only
+	contractID CHAR(5) DEFAULT NULL, -- business clients only
 	jobDate DATE NOT NULL,
 	jobPrice CHAR(6), -- contracts excluded
 	jobMiles CHAR(4) NOT NULL, -- all jobs will have a mileage
@@ -36,4 +36,4 @@ ALTER TABLE Job
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 --stop script
-spool off;
+-- spool off;

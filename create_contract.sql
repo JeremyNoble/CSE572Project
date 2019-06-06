@@ -1,5 +1,5 @@
 --start script
-spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/create_contract_noblasko.txt;
+-- spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/create_contract_noblasko.txt;
 
 -- create table
 DROP TABLE Contract CASCADE CONSTRAINTS;
@@ -22,4 +22,4 @@ ALTER TABLE Contract
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- stop script
-spool off;
+-- spool off;
