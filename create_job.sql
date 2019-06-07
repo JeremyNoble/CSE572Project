@@ -7,7 +7,7 @@ CREATE TABLE Job (
 	jobID CHAR(5) NOT NULL,
 	driverID CHAR(5) NOT NULL,
 	licensePlateNo VARCHAR2(9) NOT NULL,
-	privateID CHAR(5) DEFAULT NULL,
+	contractID CHAR(5) DEFAULT NULL,
 	clientID CHAR(5) DEFAULT NULL,
 	jobDate DATE NOT NULL,
 	jobPrice CHAR(6) DEFAULT NULL, -- contracts excluded
