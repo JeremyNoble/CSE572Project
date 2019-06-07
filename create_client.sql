@@ -8,11 +8,11 @@ CREATE TABLE Client (
 	officeID CHAR(5) NOT NULL,
 	fName VARCHAR(15) DEFAULT NULL,
 	lName VARCHAR(15) DEFAULT NULL,
-	businessName VARCHAR(20) DEFAULT NULL,
-	clientGender CHAR(1) DEFAULT 'n',
+	clientGender CHAR(1) DEFAULT NULL,
 	clientDOB DATE DEFAULT NULL,
 	clientAddress VARCHAR(30) NOT NULL,
 	clientCity VARCHAR(15) DEFAULT 'South Park',
+	businessName VARCHAR(20) DEFAULT NULL,
 	CONSTRAINTS Private_PK PRIMARY KEY (clientID)
 );
 

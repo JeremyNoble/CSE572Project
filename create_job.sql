@@ -8,8 +8,7 @@ CREATE TABLE Job (
 	driverID CHAR(5) NOT NULL,
 	licensePlateNo VARCHAR2(9) NOT NULL,
 	privateID CHAR(5) DEFAULT NULL,
-	businessID CHAR(5) DEFAULT NULL,
-	contractID CHAR(5) DEFAULT NULL, -- business clients only
+	clientID CHAR(5) DEFAULT NULL,
 	jobDate DATE NOT NULL,
 	jobPrice CHAR(6) DEFAULT NULL, -- contracts excluded
 	jobMiles CHAR(4) NOT NULL, -- all jobs will have a mileage
@@ -28,12 +27,7 @@ ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- foreign key for PrivateClient table
 ALTER TABLE Job
-	ADD CONSTRAINTS privateID_FK FOREIGN KEY(privateID) REFERENCES PrivateClient(clientID)
-ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
-
--- foreign key for BusinessClient table
-ALTER TABLE Job
-	ADD CONSTRAINTS businessID_FK FOREIGN KEY(businessID) REFERENCES BusinessClient(clientID)
+	ADD CONSTRAINTS clientID_FK FOREIGN KEY(clientID) REFERENCES Client(clientID)
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- foreign key for Contract table

@@ -4,8 +4,7 @@ SET CONSTRAINTS	ALL DEFERRED;
 
 -- create tables
 @create_office.sql;
-@create_private.sql;
-@create_business.sql;
+@create_client.sql;
 @create_contract.sql;
 @create_drivers.sql;
 @create_job.sql;
@@ -16,8 +15,7 @@ SET CONSTRAINTS	ALL IMMEDIATE;
 
 -- insert values
 @insert_office.sql;
-@insert_private.sql;
-@insert_business.sql;
+@insert_client.sql;
 @insert_contract.sql;
 @insert_job.sql;
 @insert_allstaff.sql;
