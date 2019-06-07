@@ -22,7 +22,7 @@ ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- foreign key for Drivers table
 ALTER TABLE Job
-	ADD CONSTRAINTS StaffID_FK FOREIGN KEY (staffID, licensePlateNo) REFERENCES Drivers (staffID, licensePlateNo)
+	ADD CONSTRAINTS StaffID_FK FOREIGN KEY (staffID) REFERENCES Drivers (staffID)
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- foreign key for Client table
