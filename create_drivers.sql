@@ -5,7 +5,7 @@ DROP TABLE Drivers CASCADE CONSTRAINTS;
 CREATE TABLE Drivers (
     staffID CHAR(5) NOT NULL,
     licensePlateNo VARCHAR2(9) NOT NULL,
-    CONSTRAINTS Driver_PK PRIMARY KEY (staffID,licensePlateNo)
+    CONSTRAINTS Driver_PK PRIMARY KEY (staffID, licensePlateNo)
 );
 
 ALTER TABLE Drivers

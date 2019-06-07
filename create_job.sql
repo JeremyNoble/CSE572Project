@@ -5,7 +5,7 @@
 DROP TABLE Job CASCADE CONSTRAINTS;
 CREATE TABLE Job (
 	jobID CHAR(5) NOT NULL,
-	driverID CHAR(5) NOT NULL,
+	staffID CHAR(5) NOT NULL,
 	licensePlateNo VARCHAR2(9) NOT NULL,
 	contractID CHAR(5) DEFAULT NULL,
 	clientID CHAR(5) NOT NULL,
@@ -22,7 +22,7 @@ ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- foreign key for Drivers table
 ALTER TABLE Job
-	ADD CONSTRAINTS StaffID_FK FOREIGN KEY (driverID, licensePlateNo) REFERENCES Drivers (staffID, licensePlateNo)
+	ADD CONSTRAINTS StaffID_FK FOREIGN KEY (staffID, licensePlateNo) REFERENCES Drivers (staffID, licensePlateNo)
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- foreign key for Client table
