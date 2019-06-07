@@ -8,7 +8,7 @@ CREATE TABLE Job (
 	driverID CHAR(5) NOT NULL,
 	licensePlateNo VARCHAR2(9) NOT NULL,
 	contractID CHAR(5) DEFAULT NULL,
-	clientID CHAR(5) DEFAULT NULL,
+	clientID CHAR(5) NOT NULL,
 	jobDate DATE NOT NULL,
 	jobPrice CHAR(6) DEFAULT NULL, -- contracts excluded
 	jobMiles CHAR(4) NOT NULL, -- all jobs will have a mileage
@@ -25,7 +25,7 @@ ALTER TABLE Job
 	ADD CONSTRAINTS StaffID_FK FOREIGN KEY (driverID, licensePlateNo) REFERENCES Drivers (staffID, licensePlateNo)
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
--- foreign key for PrivateClient table
+-- foreign key for Client table
 ALTER TABLE Job
 	ADD CONSTRAINTS clientID_FK FOREIGN KEY (clientID) REFERENCES Client (clientID)
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;

@@ -65,7 +65,8 @@ INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, jobDate, jobPrice, j
 VALUES (
 	'JB014', 'L3003', '6WHB954', 'CL012', '17-Nov-00', '99', '50'
 );
-INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, jobDate, jobPrice, jobMiles) (
+INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, jobDate, jobPrice, jobMiles) 
+VALUES (
 	'JB015', 'L3002', '7BUV692', 'CL013', '10-Jul-12', '19', '9'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, jobDate, jobPrice, jobMiles)
@@ -122,71 +123,71 @@ VALUES (
 -- insert all contracted jobs
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB025', 'L1003', '6XLB207', 'CL021', 'CI001', '01-Apr-18', '6'
+	'JB028', 'L1003', '6XLB207', 'CL021', 'CI001', '01-Apr-18', '6'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB026', 'L3002', '7BVK293', 'CL022', 'CI001', '21-Jul-18', '23'
+	'JB029', 'L3002', '7BVK293', 'CL022', 'CI001', '21-Jul-18', '23'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB027', 'L2003', '7BUV692', 'CL023', 'CI002', '03-Nov-13', '12'
+	'JB030', 'L2003', '7BUV692', 'CL023', 'CI002', '03-Nov-13', '12'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB028', 'L1003', '7BVK293', 'BC023', 'CI002', '01-Sep-12', '18'
+	'JB031', 'L1003', '7BVK293', 'BC023', 'CI002', '01-Sep-12', '18'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB029', 'L1004', '6XLB207', 'CL023', 'CI002', '11-Jul-16', '2'
+	'JB032', 'L1004', '6XLB207', 'CL023', 'CI002', '11-Jul-16', '2'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB030', 'L1003', '7BVK293', 'CL024', 'CI003', '15-Jun-16', '2'
+	'JB032', 'L1003', '7BVK293', 'CL024', 'CI003', '15-Jun-16', '2'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB031', 'L3002', '7BFN110', 'CL024', 'CI004', '15-Jun-16', '90'
+	'JB033', 'L3002', '7BFN110', 'CL024', 'CI004', '15-Jun-16', '90'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB032', 'L1003', '7BUV692', 'CL025', 'CI005', '21-Jan-09', '17'
+	'JB034', 'L1003', '7BUV692', 'CL025', 'CI005', '21-Jan-09', '17'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB033', 'L1004', '6XLB207', 'CL025', 'CI006', '16-Mar-09', '4'
+	'JB035', 'L1004', '6XLB207', 'CL025', 'CI006', '16-Mar-09', '4'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB034', 'L3002', '7BUV692', 'CL025', 'CI007', '30-Jan-09', '1'
+	'JB036', 'L3002', '7BUV692', 'CL025', 'CI007', '30-Jan-09', '1'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB035', 'L1004', '6WHB954', 'CL026', 'CI008', '17-Oct-06', '54'
+	'JB037', 'L1004', '6WHB954', 'CL026', 'CI008', '17-Oct-06', '54'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB036', 'L1003', '7BFN110', 'CL027', 'CI009', '05-Nov-06', '11'
+	'JB038', 'L1003', '7BFN110', 'CL027', 'CI009', '05-Nov-06', '11'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB037', 'L2003', '7BUV692', 'CL028', 'CI010', '12-Aug-19', '13'
+	'JB039', 'L2003', '7BUV692', 'CL028', 'CI010', '12-Aug-19', '13'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB038', 'L2003', '6WHB954', 'CL029', 'CI010', '31-Dec-19', '10'
+	'JB040', 'L2003', '6WHB954', 'CL029', 'CI010', '31-Dec-19', '10'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB039', 'L1003', '6WHB954', 'CL029', 'CI011', '12-Apr-19', '10'
+	'JB041', 'L1003', '6WHB954', 'CL029', 'CI011', '12-Apr-19', '10'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB040', 'L1004', '7BVK293', 'CL030', 'CI012', '10-Jun-19', '16'
+	'JB042', 'L1004', '7BVK293', 'CL030', 'CI012', '10-Jun-19', '16'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, contractID, jobDate, jobMiles)
 VALUES (
-	'JB041', 'L1003', '7BFN110', 'CL030', 'CI012', '05-Sep-19', '100'
+	'JB043', 'L1003', '7BFN110', 'CL030', 'CI012', '05-Sep-19', '100'
 );
 
 -- Set defered constraints effective. 

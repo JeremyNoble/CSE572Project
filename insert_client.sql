@@ -8,83 +8,83 @@
 
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL001', 'BR002', 'Liam', 'Page', 'Male', '30-Dec-88', '76 Pier Road', 'Dry Fork'
+	'CL001', 'BR002', 'Liam', 'Page', 'M', '30-Dec-88', '76 Pier Road', 'Dry Fork'
 );
 INSERT INTO Client(clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
  VALUES (
-	'CL002', 'BR001', 'Andrew',  'Coates', 'Male', '26-Nov-58', '84 Holagate Rd', 'Raithby'
+	'CL002', 'BR001', 'Andrew',  'Coates', 'M', '26-Nov-58', '84 Holagate Rd', 'Raithby'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL003', 'BR003', 'Oliver',  'Fry', 'Male', '21-Dec-90', '48 Foregate St', 'Glasgow'
+	'CL003', 'BR003', 'Oliver',  'Fry', 'M', '21-Dec-90', '48 Foregate St', 'Glasgow'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL004', 'BR001', 'Robert',  'Hall', 'Male', '10-Jul-91', '34 Ploughley Rd', 'Tirdeunaw'
+	'CL004', 'BR001', 'Robert',  'Hall', 'M', '10-Jul-91', '34 Ploughley Rd', 'Tirdeunaw'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL005', 'BR001', 'Finlay',  'Nelson', 'Male', '25-Jul-91', '16 Consett Rd', 'Lamb'
+	'CL005', 'BR001', 'Finlay',  'Nelson', 'M', '25-Jul-91', '16 Consett Rd', 'Lamb'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL006', 'BR002', 'Mohammad', 'Tucker', 'Male', '17-Nov-92', '33 Traill St', 'Rothiebrisbane'
+	'CL006', 'BR002', 'Mohammad', 'Tucker', 'M', '17-Nov-92', '33 Traill St', 'Rothiebrisbane'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL007', 'BR001', 'Libby', 'Power', 'Female', '31-Jan-93', '75 Wartnaby Rd', 'Acrefair'
+	'CL007', 'BR001', 'Libby', 'Power', 'F', '31-Jan-93', '75 Wartnaby Rd', 'Acrefair'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL008', 'BR002', 'Nicholas', 'Poole', 'Male', '5-Jun-93', '8 Glenurquhart Road', 'Dry Fork'
+	'CL008', 'BR002', 'Nicholas', 'Poole', 'M', '5-Jun-93', '8 Glenurquhart Road', 'Dry Fork'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL009', 'BR003', 'Jack', 'Webb', 'Male', '26-Dec-94', '73 Winchester Rd', 'Glasgow'
+	'CL009', 'BR003', 'Jack', 'Webb', 'M', '26-Dec-94', '73 Winchester Rd', 'Glasgow'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL010', 'BR003', 'Louie', 'Kelly', 'Male', '12-Jun-95', '17 Ross Rd', 'Marshbrook'
+	'CL010', 'BR003', 'Louie', 'Kelly', 'M', '12-Jun-95', '17 Ross Rd', 'Marshbrook'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL011', 'BR001', 'Taylor', 'Shaw', 'Female', '4-Aug-95', '72 Guildry St', 'Lamb'
+	'CL011', 'BR001', 'Taylor', 'Shaw', 'F', '4-Aug-95', '72 Guildry St', 'Lamb'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL012', 'BR002', 'Mason', 'Parsons', 'Male', '20-Aug-95', '57 North Promenade', 'Dolgellau'
+	'CL012', 'BR002', 'Mason', 'Parsons', 'M', '20-Aug-95', '57 North Promenade', 'Dolgellau'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL013', 'BR002', 'Joseph', 'Powell', 'Male', '4-Jul-96', '85 Stamford Rd', 'Marshbrook'
+	'CL013', 'BR002', 'Joseph', 'Powell', 'M', '4-Jul-96', '85 Stamford Rd', 'Marshbrook'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL014', 'BR003', 'Eloise', 'Franklin', 'Female', '14-Feb-97', '21 Park Ave', 'Lamb'
+	'CL014', 'BR003', 'Eloise', 'Franklin', 'F', '14-Feb-97', '21 Park Ave', 'Lamb'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL015', 'BR001', 'Zak', 'Wong', 'Male', '8-Nov-97', '98 Fordham Rd', 'Rothiebrisbane'
+	'CL015', 'BR001', 'Zak', 'Wong', 'M', '8-Nov-97', '98 Fordham Rd', 'Rothiebrisbane'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL016', 'BR002', 'Jasmine', 'Brade', 'Female', '17-Jun-98', '55 Broad St', 'Lower Higham'
+	'CL016', 'BR002', 'Jasmine', 'Brade', 'F', '17-Jun-98', '55 Broad St', 'Lower Higham'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL017', 'BR002', 'Scarlett', 'Griffiths', 'Female', '16-Jan-99', '16 Nith St', 'Balgavies'
+	'CL017', 'BR002', 'Scarlett', 'Griffiths', 'F', '16-Jan-99', '16 Nith St', 'Balgavies'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL018', 'BR001', 'Charlie', 'Glover', 'Male', '23-Jul-91', '11 Stamford Rd', 'Glasgow'
+	'CL018', 'BR001', 'Charlie', 'Glover', 'M', '23-Jul-91', '11 Stamford Rd', 'Glasgow'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL019', 'BR003', 'Joel', 'Norton', 'Male', '10-Nov-92', '49 Bouverie Rd', 'MarshBrook'
+	'CL019', 'BR003', 'Joel', 'Norton', 'M', '10-Nov-92', '49 Bouverie Rd', 'MarshBrook'
 );
 INSERT INTO Client (clientID, officeID, fName, lName, clientGender, clientDOB, clientAddress, clientCity)
 VALUES (
-	'CL020', 'BR001', 'Nicole', 'Rowe', 'Female', '16-Jan-01', '7 Stamford Rd', 'Dry Fork'
+	'CL020', 'BR001', 'Nicole', 'Rowe', 'F', '16-Jan-01', '7 Stamford Rd', 'Dry Fork'
 );
 
 -- insert business clients
