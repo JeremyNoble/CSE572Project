@@ -17,8 +17,8 @@ CREATE TABLE Client (
 );
 
 -- modify table foreign keys
-ALTER TABLE PrivateClient
-	ADD CONSTRAINTS Private_FK FOREIGN KEY(officeID) REFERENCES Office(officeID)
+ALTER TABLE Client
+	ADD CONSTRAINTS Client_FK FOREIGN KEY(officeID) REFERENCES Office(officeID)
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- stop script
