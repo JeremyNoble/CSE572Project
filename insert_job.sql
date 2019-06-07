@@ -86,7 +86,7 @@ VALUES (
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, jobDate, jobPrice, jobMiles)
 VALUES (
-	'JB020', 'L1004', '6XLB207', 'CI017', '25-Dec-15', '59', '29'
+	'JB020', 'L1004', '7BVK293', 'CI017', '25-Dec-15', '59', '29'
 );
 INSERT INTO Job (jobID, driverID, licensePlateNo, clientID, jobDate, jobPrice, jobMiles)
 VALUES (
