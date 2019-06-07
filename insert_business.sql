@@ -2,7 +2,7 @@
 -- spool /home/csusb.edu/005940658/CSE572/CSE572Project/output_scripts/insert_business_noblasko.txt;
 
 -- defer contraints
-SET CONSTRAINTS ALL DEFERRED;
+-- SET CONSTRAINTS ALL DEFERRED;
 
 INSERT INTO BusinessClient VALUES (
 	'BC001', 'BR001', 'Real Fake Doors', '70 Sea Road', 'Detchant'
@@ -36,7 +36,7 @@ INSERT INTO BusinessClient VALUES (
 );
 
 -- Set defered constraints effective. 
-SET CONSTRAINTS ALL IMMEDIATE;
+-- SET CONSTRAINTS ALL IMMEDIATE;
 
 -- stop script
 -- spool off;

@@ -1,7 +1,7 @@
 -- start script
 -- spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_driver_noblasko.txt
 
-SET CONSTRAINTS	ALL DEFERRED;
+-- SET CONSTRAINTS	ALL DEFERRED;
 
 INSERT INTO Drivers VALUES('L1003','7BFN110');
 INSERT INTO Drivers VALUES('L1004','7BVK293');
@@ -11,7 +11,7 @@ INSERT INTO Drivers VALUES('L3002','7CVR466');
 INSERT INTO Drivers VALUES('L3003','7BUV692');
 INSERT INTO Drivers VALUES('L3004','6XLB207');
 
-SET CONSTRAINTS	ALL IMMEDIATE;
+-- SET CONSTRAINTS	ALL IMMEDIATE;
 
 -- stop	script
 -- spool off;

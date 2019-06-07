@@ -2,7 +2,7 @@
 -- spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_job_noblasko.txt;
 
 -- defer contraints
-SET CONSTRAINTS ALL DEFERRED;
+-- SET CONSTRAINTS ALL DEFERRED;
 
 -- 15 private clients => #jobs >= 15
 
@@ -81,6 +81,15 @@ INSERT INTO Job VALUES (
 INSERT INTO Job VALUES (
 	'JB024', 'L1004', '6XLB207', 'CI020', NULL, '31-May-19', '12', '6'
 );
+INSERT INTO Job VALUES (
+	'JB025', 'L3002', '7BUV692', 'CI007', NULL, '11-Sep-12', '24', '12'
+);
+INSERT INTO Job VALUES (
+	'JB026', 'L3002', '6WHB954', 'CI014', NULL, '05-Nov-16', '80', '40'
+);
+INSERT INTO Job VALUES (
+	'JB027', 'L1004', '7BUV692', 'CI014', NULL, '05-Nov-17', '80', '40'
+);
 
 -- 12 business contracts => #jobs >= 12
 
@@ -138,7 +147,7 @@ INSERT INTO Job VALUES (
 );
 
 -- Set defered constraints effective. 
-SET CONSTRAINTS ALL IMMEDIATE;
+-- SET CONSTRAINTS ALL IMMEDIATE;
 
 -- stop script
 -- spool off;

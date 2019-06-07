@@ -2,7 +2,7 @@
 -- spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_contract_noblasko.txt;
 
 -- defer contraints
-SET CONSTRAINTS ALL DEFERRED;
+-- SET CONSTRAINTS ALL DEFERRED;
 
 -- insert values
 INSERT INTO Contract VALUES (
@@ -43,7 +43,7 @@ INSERT INTO Contract VALUES (
 );
 
 -- Set defered constraints effective. 
-SET CONSTRAINTS ALL IMMEDIATE;
+-- SET CONSTRAINTS ALL IMMEDIATE;
 
 -- stop script
 -- spool off;

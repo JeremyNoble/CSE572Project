@@ -2,7 +2,7 @@
 -- spool /home/csusb.edu/005940658/CSE572/CSE572S19/Project/output_scripts/insert_private_noblasko.txt;
 
 -- defer contraints
-SET CONSTRAINTS ALL DEFERRED;
+-- SET CONSTRAINTS ALL DEFERRED;
 
 INSERT INTO PrivateClient VALUES (
 	'CL001', 'BR002', 'Liam', 'Page', 'Male', '30-Dec-88', '76 Pier Road', 'Dry Fork'
@@ -66,7 +66,7 @@ INSERT INTO PrivateClient VALUES (
 );
 
 -- Set defered constraints effective. 
-SET CONSTRAINTS ALL IMMEDIATE;
+-- SET CONSTRAINTS ALL IMMEDIATE;
 
 -- stop script
 -- spool off;

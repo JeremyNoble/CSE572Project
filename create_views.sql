@@ -1,3 +1,6 @@
+
+-- create views
+
 --a) The names and phone numbers of the Managers at each office.
 DROP VIEW one;
 CREATE VIEW one AS
@@ -87,26 +90,31 @@ CREATE VIEW eleven AS
 
     --Condidtions: staffNo,
 
---l) The names of drivers who are over 55 years old. ** need to modify some ages **
+--l) The names of drivers who are over 55 years old. **added a few DOB where age > 55**
 DROP VIEW twelve;
 CREATE VIEW twelve AS
-    SELECT lName || ', ' || fName AS DRIVER, trunc(months_between(sysdate,DOB)/12) age
+    SELECT lName || ', ' || fName AS DRIVER, trunc(months_between(sysdate, DOB)/12) AS 'AGE'
     FROM AllStaff
     WHERE trunc(months_between(sysdate,DOB)/12) > 55;
 
 --m) The names and numbers of private clients who hired a taxi in November 2000. ** needs work **
 DROP VIEW thirteen;
 CREATE VIEW thirteen AS
-    SELECT p.fName || ', ' || p.lName as NAME, p.clientID
+    SELECT p.fName || ', ' || p.lName AS 'NAME', p.clientID
     FROM PrivateClient p
     JOIN Job j
     ON p.clientID = j.clientID
-    WHERE j.jobDate < TO_DATE('1-NOV-00','DD-MON-RR') AND j.jobDate < TO_DATE('30-NOV-00','DD-MON-RR');
+    WHERE j.jobDate IN 
+    (SELECT * FROM j.jobDate WHERE j.jobDate >= '01-Nov-00' AND j.jobDate <= '30-Nov-00');
+    --WHERE j.jobDate < TO_DATE('1-NOV-00','DD-MON-RR') AND j.jobDate < TO_DATE('30-NOV-00','DD-MON-RR');
 
 
 --n) The names and addresses of private clients who have hired a taxi more than three times.
---DROP VIEW fourteen;
---CREATE VIEW fourteen AS
+DROP VIEW fourteen;
+CREATE VIEW fourteen AS
+	SELECT p.fName || ', ' || p.lName AS "NAME", p.clientAddress AS "ADDRESS", p.clientCity AS "CITY"
+	FROM PrivateClient p, Job j
+	WHERE COUNT(p.clientID = j.clientID) >= 3; -- not sure if this will work...
 
 --o) The average number of miles driven during a job.
 --DROP VIEW fifteen
