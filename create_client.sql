@@ -13,12 +13,12 @@ CREATE TABLE Client (
 	clientAddress VARCHAR(30) NOT NULL,
 	clientCity VARCHAR(15) DEFAULT 'South Park',
 	businessName VARCHAR(20) DEFAULT NULL,
-	CONSTRAINTS Private_PK PRIMARY KEY (clientID)
+	CONSTRAINTS Client_PK PRIMARY KEY (clientID)
 );
 
 -- modify table foreign keys
 ALTER TABLE Client
-	ADD CONSTRAINTS Client_FK FOREIGN KEY(officeID) REFERENCES Office(officeID)
+	ADD CONSTRAINTS Client_FK FOREIGN KEY (officeID) REFERENCES Office (officeID)
 ON DELETE SET NULL DEFERRABLE INITIALLY IMMEDIATE;
 
 -- stop script
