@@ -1,5 +1,7 @@
 -- makefile to run scripts in order
 
+SET CONSTRAINTS	ALL DEFERRED;
+
 -- create tables
 @create_office.sql;
 @create_private.sql;
@@ -9,6 +11,8 @@
 @create_job.sql;
 @create_allstaff.sql;
 @create_taxi.sql;
+
+SET CONSTRAINTS	ALL IMMEDIATE;
 
 -- insert values
 @insert_office.sql;
@@ -26,7 +30,5 @@
 @comment_contract.sql;
 @comment_job.sql;
 
--- create views
-
--- run queries
+-- create views and run views
 
