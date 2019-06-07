@@ -23,10 +23,14 @@ SET CONSTRAINTS	ALL IMMEDIATE;
 @insert_taxi.sql;
 
 -- create comments
-@comment_private.sql;
-@comment_business.sql;
+@comment_office.sql;
+@comment_client.sql;
 @comment_contract.sql;
+@comment_drivers.sql;
 @comment_job.sql;
+@comment_allstaff.sql;
+@comment_taxi.sql;
+
 
 -- create views and run views
 
